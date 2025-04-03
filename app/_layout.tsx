@@ -21,9 +21,12 @@ export default function RootLayout() {
     return null;
   }
   return (
-    <Stack initialRouteName="index" screenOptions={{ headerShown: false }}>
-      <Stack.Screen name="index" />
-      <Stack.Screen name="(tabs)" />
+    <Stack initialRouteName="index">
+      <Stack.Screen name="index" options={{ headerShown: false }} />
+      <Stack.Screen
+        name="(tabs)"
+        options={{ headerTransparent: true, headerTitle: () => null }}
+      />
     </Stack>
   ); // This is the main screen of the app
 }
