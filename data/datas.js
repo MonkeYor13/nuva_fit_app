@@ -1,4 +1,4 @@
-const ropaDeportivaFemenina = [
+const ropaDeportiva = [
   {
     id: 0,
     titulo: "Legging Deportivas PowerFlex",
@@ -16,8 +16,7 @@ const ropaDeportivaFemenina = [
     titulo: "Top Deportiva Transpirable",
     subtitulo: "Mantente fresca y seca",
     imagen: require("../assets/images/tops/top1.jpg"),
-    descripcion:
-      "Top ligera y de secado rápido para entrenamientos intensos.",
+    descripcion: "Top ligera y de secado rápido para entrenamientos intensos.",
     precio: 19.99,
     ponderacion: 4.2,
     enOferta: false,
@@ -37,7 +36,7 @@ const ropaDeportivaFemenina = [
   },
   {
     id: 3,
-    titulo: "Legging de Running",
+    titulo: "Legging para Running eveday",
     subtitulo: "Libertad de movimiento",
     imagen: require("../assets/images/pants/l2.jpg"),
     descripcion:
@@ -85,7 +84,7 @@ const ropaDeportivaFemenina = [
   },
   {
     id: 7,
-    titulo: "Legging de Entrenamiento Holgados",
+    titulo: "Legging Elegent Holgados",
     subtitulo: "Comodidad y estilo relajado",
     imagen: require("../assets/images/pants/l5.jpg"),
     descripcion:
@@ -97,7 +96,7 @@ const ropaDeportivaFemenina = [
   },
   {
     id: 8,
-    titulo: "Top de Manga Larga con Protección Solar",
+    titulo: "Top de tirantes Super Ajuste.",
     subtitulo: "Protección y comodidad en exteriores",
     imagen: require("../assets/images/tops/top4.jpg"),
     descripcion:
@@ -169,7 +168,7 @@ const ropaDeportivaFemenina = [
   },
   {
     id: 14,
-    titulo: "ActiveWear Deportiva Ligera",
+    titulo: "ActiveWear Deportiva Light",
     subtitulo: "Ideal para el calentamiento",
     imagen: require("../assets/images/comb/c1.jpg"),
     descripcion:
@@ -205,7 +204,7 @@ const ropaDeportivaFemenina = [
   },
   {
     id: 17,
-    titulo: "Legging de Entrenamiento de Cintura Alta",
+    titulo: "Legging de Cintura Alta",
     subtitulo: "Sujeción y comodidad",
     imagen: require("../assets/images/pants/l9.jpg"),
     descripcion:
@@ -241,49 +240,49 @@ const ropaDeportivaFemenina = [
   },
   {
     id: 20,
-    titulo: "Legging de Entrenamiento de Cintura Alta",
+    titulo: "Legging de Cintura Alta",
     subtitulo: "Sujeción y comodidad",
     imagen: require("../assets/images/pants/l10.jpg"),
     descripcion:
       "Legging de cintura alta que ofrecen sujeción y comodidad durante tus entrenamientos.",
     precio: 33.99,
-    ponderacion: 4.0,
+    ponderacion: 4.8,
     enOferta: false,
     category: "Leggings",
   },
   {
     id: 21,
-    titulo: "Legging de Entrenamiento de Cintura Alta",
+    titulo: "Legging de Cintura Alta",
     subtitulo: "Sujeción y comodidad",
     imagen: require("../assets/images/pants/l11.jpg"),
     descripcion:
       "Legging de cintura alta que ofrecen sujeción y comodidad durante tus entrenamientos.",
     precio: 33.99,
-    ponderacion: 4.0,
+    ponderacion: 4.5,
     enOferta: false,
     category: "Leggings",
   },
   {
     id: 22,
-    titulo: "Legging de Entrenamiento de Cintura Alta",
+    titulo: "Legging de Cintura Alta",
     subtitulo: "Sujeción y comodidad",
     imagen: require("../assets/images/pants/l12.jpg"),
     descripcion:
       "Legging de cintura alta que ofrecen sujeción y comodidad durante tus entrenamientos.",
     precio: 33.99,
-    ponderacion: 4.0,
+    ponderacion: 4.6,
     enOferta: false,
     category: "Leggings",
   },
   {
     id: 23,
-    titulo: "Legging de Entrenamiento de Cintura Alta",
+    titulo: "Legging de Cintura Alta con bolsillos",
     subtitulo: "Sujeción y comodidad",
     imagen: require("../assets/images/pants/l13.jpg"),
     descripcion:
       "Legging de cintura alta que ofrecen sujeción y comodidad durante tus entrenamientos.",
     precio: 33.99,
-    ponderacion: 4.0,
+    ponderacion: 4.9,
     enOferta: false,
     category: "Leggings",
   },
@@ -292,8 +291,7 @@ const ropaDeportivaFemenina = [
     titulo: "Top Deportivo tipo camiseta",
     subtitulo: "Fácil de poner y quitar",
     imagen: require("../assets/images/tops/top11.jpg"),
-    descripcion:
-      "Top deportivo para mayor comodidad y facilidad de uso.",
+    descripcion: "Top deportivo para mayor comodidad y facilidad de uso.",
     precio: 28.99,
     ponderacion: 4.6,
     enOferta: false,
@@ -319,31 +317,30 @@ const ropaDeportivaFemenina = [
     descripcion:
       "Top deportivo con cierre frontal para mayor comodidad y facilidad de uso.",
     precio: 28.99,
-    ponderacion: 4.6,
+    ponderacion: 4.8,
     enOferta: false,
     category: "Tops",
   },
   {
     id: 27,
-    titulo: "ActiveWear Deportiva Corto",
+    titulo: "ActiveWear Deportiva - Short",
     subtitulo: "Ideal para el calentamiento",
     imagen: require("../assets/images/comb/c2.jpg"),
     descripcion:
       "Conjunto ligera y transpirable, perfecta para el calentamiento o para usar como capa adicional.",
     precio: 44.99,
-    ponderacion: 4.3,
+    ponderacion: 4.9,
     enOferta: true,
     category: "Conjuntos",
   },
   {
     id: 28,
-    titulo: "ActiveWear Sweater",
+    titulo: "ActiveWear Sweater - Short",
     subtitulo: "Ideal para dias fríos",
     imagen: require("../assets/images/comb/c3.jpg"),
-    descripcion:
-      "Conjunto con mangas largar para dias frios.",
+    descripcion: "Conjunto con mangas largar para dias frios.",
     precio: 44.99,
-    ponderacion: 4.3,
+    ponderacion: 4.6,
     enOferta: true,
     category: "Conjuntos",
   },
@@ -355,82 +352,80 @@ const ropaDeportivaFemenina = [
     descripcion:
       "Conjunto completo para maximo rendimiento en tus entrenamientos de alto impacto.",
     precio: 44.99,
-    ponderacion: 4.3,
+    ponderacion: 4.8,
     enOferta: true,
     category: "Conjuntos",
   },
   {
     id: 30,
-    titulo: "ActiveWear Deportiva Ligera",
+    titulo: "ActiveWear Deportiva Light",
     subtitulo: "Ideal para paseos",
     imagen: require("../assets/images/comb/c5.jpg"),
-    descripcion:
-      "Conjunto negro y comodo para dias de paseo.",
+    descripcion: "Conjunto negro y comodo para dias de paseo.",
     precio: 44.99,
-    ponderacion: 4.3,
+    ponderacion: 4.9,
     enOferta: true,
     category: "Conjuntos",
   },
   {
     id: 31,
-    titulo: "ActiveWear Home Ligera",
+    titulo: "ActiveWear Home Light",
     subtitulo: "Ideal para el calentamiento",
     imagen: require("../assets/images/comb/c6.jpg"),
-    descripcion:
-      "Conjunto ideal para entrenamientos en casa o paseo.",
+    descripcion: "Conjunto ideal para entrenamientos en casa o paseo.",
     precio: 44.99,
-    ponderacion: 4.3,
+    ponderacion: 4.5,
     enOferta: true,
     category: "Conjuntos",
   },
   {
     id: 32,
-    titulo: "ActiveWear Stretch",
+    titulo: "ActiveWear Stretch - Legging",
     subtitulo: "Ideal para el calentamiento",
     imagen: require("../assets/images/comb/c7.jpg"),
     descripcion:
       "Conjunto adaptable a la figura del cuerpo para mayor comodidad.",
     precio: 44.99,
-    ponderacion: 4.3,
+    ponderacion: 4.8,
     enOferta: true,
     category: "Conjuntos",
   },
   {
     id: 33,
-    titulo: "ActiveWear Stretch",
+    titulo: "ActiveWear Stretch - Legging",
     subtitulo: "Ideal para el calentamiento",
     imagen: require("../assets/images/comb/c8.jpg"),
     descripcion:
       "Conjunto adaptable a la figura del cuerpo para mayor comodidad.",
     precio: 44.99,
-    ponderacion: 4.3,
+    ponderacion: 4.9,
     enOferta: true,
     category: "Conjuntos",
   },
   {
     id: 34,
-    titulo: "ActiveWear Ligera 2 tonos",
+    titulo: "ActiveWear Light 2 colors",
     subtitulo: "Ideal para el calentamiento",
     imagen: require("../assets/images/comb/c9.jpg"),
     descripcion:
       "Conjunto ligero y transpirable, perfecta para el calentamiento o para usar como capa adicional.",
     precio: 44.99,
-    ponderacion: 4.3,
+    ponderacion: 4.8,
     enOferta: true,
     category: "Conjuntos",
   },
   {
     id: 35,
-    titulo: "ActiveWear Elegant",
+    titulo: "ActiveWear Elegant - Legging",
     subtitulo: "Ideal para el calentamiento",
     imagen: require("../assets/images/comb/c10.jpg"),
     descripcion:
       "Conjunto mas elegante para dias en donde quieres dar un toque elegante pero deportivo.",
     precio: 44.99,
-    ponderacion: 4.3,
+    ponderacion: 4.5,
     enOferta: true,
     category: "Conjuntos",
   },
 ];
 
-export default ropaDeportivaFemenina;
+export default ropaDeportiva;

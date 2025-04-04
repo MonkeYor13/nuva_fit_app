@@ -6,7 +6,7 @@ import {
   View,
 } from "react-native";
 const BgStart = require("../assets/images/icons/Start.png");
-import { Link, useRouter } from "expo-router";
+import { useRouter } from "expo-router";
 
 export default function Index() {
   const router = useRouter(); // Usa useRouter de expo-router
@@ -30,6 +30,7 @@ export default function Index() {
             textShadowColor: "#262626",
             textShadowOffset: { width: 3, height: 4 },
             textShadowRadius: 3,
+            fontFamily: "Inter",
           }}
         >
           Nova Fit
@@ -38,7 +39,9 @@ export default function Index() {
           className="bg-modoLight rounded-full w-48 h-12 items-center justify-center mt-10 absolute bottom-20"
           onPress={handlePress}
         >
-          <Text className="text-modoDark text-xl">Train Here!</Text>
+          <Text className="text-modoDark text-xl font-fuenteRegular">
+            Train Here!
+          </Text>
         </Pressable>
       </ImageBackground>
     </View>

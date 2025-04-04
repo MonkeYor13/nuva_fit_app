@@ -11,8 +11,10 @@ module.exports = {
         unActive: "#9C9C9C",
       },
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
+        fuenteRegular: ["Inter_18pt-Regular", "sans-serif"],
+        fuenteBold: ["Inter_18pt-Bold", "sans-serif"],
       },
+
     },
   },
   plugins: [],
